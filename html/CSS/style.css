@@ -1,0 +1,16 @@
+p{
+    padding-left: 50px;
+    color: rgb(232, 240, 161);
+    text-align: justify;
+    padding-right: 150px;
+}
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/455/201/desktop-wallpaper-green-plant-leaves-after-rain-%E2%9D%A4-for-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+}
