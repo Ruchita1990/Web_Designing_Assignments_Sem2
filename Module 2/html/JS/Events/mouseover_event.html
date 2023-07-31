@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover and Mouseout Events</title>
+</head>
+<body>
+    <div id="myDiv" style="width: 200px; height: 100px; background-color:lightblue">
+     Hover over me!
+    </div>
+    <script>
+        const myDiv = document.getElementById('myDiv');
+
+        function handleMouseOver()
+        {
+            myDiv.style.backgroundColor = 'lightgreen';
+        }
+
+        function handleMouseOut()
+        {
+            myDiv.style.backgroundColor = 'lightblue';
+        }
+
+        myDiv.addEventListener('mouseover', handleMouseOver);
+        myDiv.addEventListener('mouseout', handleMouseOut);
+    </script>
+</body>
+</html>
